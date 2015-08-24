@@ -1,0 +1,36 @@
+{
+  "name": "react-mui-base",
+  "version": "0.0.0",
+  "description": "BaseComponent for react-material-ui",
+  "license": "MIT",
+  "repository": "hemanth/react-mui-base",
+  "author": {
+    "name": "Hemanth.HM",
+    "email": "hemanth.hm@gmail.com",
+    "url": "h3manth.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "material ui",
+    "material-ui",
+    "material design",
+    "react-component",
+    "react"
+  ],
+  "dependencies": {
+    "material-ui": "^0.10.4",
+    "react": "^0.13.3",
+    "react-tap-event-plugin": "^0.1.7"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  }
+}
