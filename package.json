@@ -12,8 +12,13 @@
   "engines": {
     "node": ">=0.10.0"
   },
+   "browserify": {
+    "transform": [
+      "babelify"
+    ]
+  },
   "scripts": {
-    "test": "mocha"
+    "prepublish": "NODE_ENV=production browserify index.es6.js | uglifyjs -cm > index.js"
   },
   "files": [
     "index.js"
@@ -26,11 +31,15 @@
     "react"
   ],
   "dependencies": {
+    "babelify": "^6.2.0",
+    "browserify": "^11.0.1",
     "material-ui": "^0.10.4",
     "react": "^0.13.3",
     "react-tap-event-plugin": "^0.1.7"
   },
-  "devDependencies": {
-    "mocha": "^2.2.5"
+   "devDependencies": {
+    "babelify": "^6.2.0",
+    "browserify": "^10.2.6",
+    "uglifyjs": "^2.4.10"
   }
 }
