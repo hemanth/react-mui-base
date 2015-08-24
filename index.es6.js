@@ -1,5 +1,5 @@
 'use strict';
-import {Component} from 'react';
+import React from 'react';
 import {Styles} from 'material-ui';
 import injectTapEventPlugin from 'react-tap-event-plugin';
 
@@ -7,7 +7,7 @@ injectTapEventPlugin();
 
 let ThemeManager = new Styles.ThemeManager();
 
-class BaseComponent extends Component {
+export default class BaseComponent extends React.Component {
   constructor () {
     super();
   }
@@ -23,5 +23,3 @@ BaseComponent.childContextTypes = {
 };
 
 BaseComponent.contextTypes = {};
-
-export default BaseComponent;

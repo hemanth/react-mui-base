@@ -18,7 +18,7 @@
     ]
   },
   "scripts": {
-    "prepublish": "NODE_ENV=production browserify index.es6.js | uglifyjs -cm > index.js"
+    "prepublish": "NODE_ENV=production browserify index.es6.js -t babelify -o | uglifyjs -cm > index.js"
   },
   "files": [
     "index.js"
