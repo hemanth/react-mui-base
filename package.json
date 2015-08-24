@@ -1,6 +1,6 @@
 {
   "name": "react-mui-base",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "BaseComponent for react-material-ui",
   "license": "MIT",
   "repository": "hemanth/react-mui-base",
@@ -12,7 +12,7 @@
   "engines": {
     "node": ">=0.10.0"
   },
-   "browserify": {
+  "browserify": {
     "transform": [
       "babelify"
     ]
@@ -37,7 +37,7 @@
     "react": "^0.13.3",
     "react-tap-event-plugin": "^0.1.7"
   },
-   "devDependencies": {
+  "devDependencies": {
     "babelify": "^6.2.0",
     "browserify": "^10.2.6",
     "uglifyjs": "^2.4.10"
