@@ -38,11 +38,11 @@ class MyComponent extends Component {
 	}
 }
 
-BaseComponent.childContextTypes = {
+MyComponent.childContextTypes = {
   muiTheme: React.PropTypes.object
 };
 
-BaseComponent.contextTypes = {};
+MyComponent.contextTypes = {};
 ```
 
 We could do:
