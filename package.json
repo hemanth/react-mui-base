@@ -31,15 +31,15 @@
     "react"
   ],
   "dependencies": {
-    "babelify": "^6.2.0",
-    "browserify": "^11.0.1",
-    "material-ui": "^0.10.4",
-    "react": "^0.13.3",
-    "react-tap-event-plugin": "^0.1.7"
+    "babelify": "6.3.0",
+    "browserify": "11.2.0",
+    "material-ui": "0.10.4",
+    "react": "0.13.3",
+    "react-tap-event-plugin": "0.1.8"
   },
   "devDependencies": {
-    "babelify": "^6.2.0",
-    "browserify": "^10.2.6",
-    "uglifyjs": "^2.4.10"
+    "babelify": "6.3.0",
+    "browserify": "10.2.6",
+    "uglifyjs": "2.4.10"
   }
 }
