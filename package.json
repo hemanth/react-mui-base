@@ -33,7 +33,7 @@
   "dependencies": {
     "babelify": "^6.2.0",
     "browserify": "^11.0.1",
-    "material-ui": "^0.10.4",
+    "material-ui": "0.12.1",
     "react": "^0.13.3",
     "react-tap-event-plugin": "^0.1.7"
   },
