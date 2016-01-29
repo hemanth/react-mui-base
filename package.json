@@ -35,7 +35,7 @@
     "browserify": "^11.0.1",
     "material-ui": "^0.10.4",
     "react": "^0.13.3",
-    "react-tap-event-plugin": "^0.1.7"
+    "react-tap-event-plugin": "^0.2.2"
   },
   "devDependencies": {
     "babelify": "^6.2.0",
