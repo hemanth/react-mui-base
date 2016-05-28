@@ -2,7 +2,6 @@
 import React from 'react';
 import {Styles} from 'material-ui';
 import injectTapEventPlugin from 'react-tap-event-plugin';
-
 injectTapEventPlugin();
 
 let ThemeManager = new Styles.ThemeManager();
