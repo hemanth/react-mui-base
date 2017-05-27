@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "babelify": "^6.2.0",
-    "browserify": "^10.2.6",
+    "browserify": "^14.4.0",
     "uglifyjs": "^2.4.10"
   }
 }
